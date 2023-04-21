@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/autonoid/static/css/main.0cd26e6a.css",
+    "main.js": "/autonoid/static/js/main.a9713f19.js",
+    "static/media/prith.png": "/autonoid/static/media/prith.057cd392aeac6e0a7f8b.png",
+    "static/media/bike1.png": "/autonoid/static/media/bike1.af7e9e3c937a0eef7d70.png",
+    "static/media/brake.png": "/autonoid/static/media/brake.151b004fb929baeccff0.png",
+    "static/media/waterproof.png": "/autonoid/static/media/waterproof.cd64922aaf1a50c01c6c.png",
+    "static/media/suspention.png": "/autonoid/static/media/suspention.995d128d6c110371284b.png",
+    "static/media/battery.png": "/autonoid/static/media/battery.02335b85116a2aac3974.png",
+    "static/media/slick.svg": "/autonoid/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/autonoid/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/autonoid/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/autonoid/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/autonoid/index.html",
+    "main.0cd26e6a.css.map": "/autonoid/static/css/main.0cd26e6a.css.map",
+    "main.a9713f19.js.map": "/autonoid/static/js/main.a9713f19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cd26e6a.css",
+    "static/js/main.a9713f19.js"
+  ]
+}
