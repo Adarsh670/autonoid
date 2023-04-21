@@ -1,0 +1,228 @@
+.mobile-navbar .logo a {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #111;
+}
+.mobileactiveColor .logo a {
+ 
+  color: #fff;
+}
+
+.mobile-navbar {
+  position: fixed;
+  background-color:#fff ;
+  /* left: 0; */
+  top: -1px;
+  width: 100%;
+  z-index: 99;
+  padding: 10px 15px;
+}
+.mobileactiveColor{
+  background-color:#111318 ;
+}
+.mobile-navbar .nav_row {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-navbar .nav_toggle {
+  height: 45px;
+  width: 45px;
+  /* background-color: #478549; */
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-navbar .nav_toggle span {
+  font-size: 27px;
+}
+.mobileactiveColor .nav_toggle span {
+  font-size: 27px;
+  color: #fff;
+}
+
+.open {
+  transform: translateX(0%);
+  transition: all 0.5s ease;
+}
+.mobile {
+  transition: all 0.5s ease 0.5s;
+}
+.navclose {
+  transition: all 0.3s ease-in;
+}
+.navv {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #232831;
+  height: 100%;
+  width: 100%;
+  z-index: 500;
+  transform: translateX(-100%);
+}
+.navopen {
+  padding: 10px 0px;
+  transform: translateX(0px);
+  transition: all 0.4s ease 0.9s;
+}
+.navv strong {
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  line-height: 50px;
+  padding: 0 50px 0 15px;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.colse {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.navv ul {
+  margin: 0.5rem 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 50vh;
+  /* padding: 20px 20px 0px 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navv ul li {
+  display: block;
+  width: 100%;
+}
+.navv ul li a {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+/* Desktop Navbar */
+
+.desktop-menu {
+  width: 100%;
+  z-index: 99;
+  position: fixed !important;
+  height: 80px;
+  top: 0 !important;
+  box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  align-items: center;
+}
+.activeColor {
+  background-color: #111318;
+}
+.activeColor .logo a {
+  color: #fff !important;
+}
+.activeColor .nav-links ul li a {
+  color: #fff !important;
+}
+.desktop-menu .logo a {
+  font-weight: 700;
+  font-size: 22px;
+  color: #111;
+}
+.desktop-menu .nav-links ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+}
+.desktop-menu .nav-links ul li a {
+  font-size: 16px;
+  position: relative;
+  color: #111;
+}
+.desktop-menu .nav-links ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: #ACEB1E;
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.desktop-menu .nav-links ul li a:hover:after {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .desktop-menu .sticky-mobile-navbar .container {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-navbar {
+    display: block;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+  .nav ul li {
+    padding: 10px 0px;
+  }
+  .gg li a {
+    color: pink !important ;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mobile-navbar {
+    display: block;
+  }
+
+  /* .desktop-menu {
+    display: none;
+  } */
+  .nav ul li {
+    padding: 10px 0px;
+  }
+  .gg li a {
+    color: green !important ;
+  }
+}
+@media screen and (max-width: 390px) {
+  .gg li a {
+    color: blue !important ;
+  }
+}
